@@ -1,0 +1,1032 @@
+@charset "UTF-8";
+/* line 2, G:/Мой диск/Dev - HTML/Lesson_3/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 2, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+head {
+  position: relative;
+}
+
+/* line 5, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+nav {
+  height: 50px;
+  background: #212121;
+}
+
+/* line 8, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 10, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.navbar {
+  width: 100%;
+}
+
+/* line 13, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.navbar .container {
+  justify-content: center;
+}
+
+/* line 16, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.hamburger {
+  display: none;
+}
+
+/* line 19, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0 auto;
+  list-style: none;
+}
+
+/* line 27, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.menu_link {
+  font-weight: 300;
+  font-size: 15px;
+  color: #FFFFFF;
+  padding-left: 14px;
+}
+
+/* line 33, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.menu_item {
+  border-right: 2px dotted black;
+  padding-right: 20px;
+}
+
+/* line 36, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.menu_item:last-child {
+  border-right: none;
+}
+
+/* line 39, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 87px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* line 45, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 50, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.subheader_official {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+
+/* line 55, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.subheader_call {
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+/* line 62, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.subheader_phone {
+  display: block;
+  font-weight: 400;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+/* line 69, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.subheader_btn {
+  margin-top: 20px;
+  width: 172px;
+  height: 46px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.06);
+  border: none;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+/* line 2, G:/Мой диск/Dev - HTML/Lesson_3/sass/_mixins.sass */
+.subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 85, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.promo {
+  min-height: 800px;
+  background: url("../img/bg/uber_bg.jpg") center center/cover no-repeat;
+  padding: 180px 0 135px 0;
+}
+
+/* line 90, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.promo_header {
+  font-weight: 900;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 60px;
+}
+
+/* line 98, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.promo_subheader {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 36px;
+}
+
+/* line 106, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.promo_descr {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 113, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.promo_btn {
+  display: block;
+  margin: 115px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.06);
+  border: none;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+/* line 2, G:/Мой диск/Dev - HTML/Lesson_3/sass/_mixins.sass */
+.promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 130, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.reason {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 1000px;
+  padding-top: 18px;
+}
+
+/* line 137, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.label {
+  position: relative;
+  margin: 0 auto;
+  width: 115px;
+  height: 27px;
+  background: #000000;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+
+/* line 151, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.label_white {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+/* line 155, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.title {
+  position: relative;
+  margin: 25px auto 16px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+  z-index: 1;
+}
+
+/* line 165, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.title_white {
+  color: #ffff;
+}
+
+/* line 168, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.subtitle {
+  position: relative;
+  font-weight: 400;
+  font-size: 17px;
+  color: #222222;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 175, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.subtitle_white {
+  color: #ffff;
+  margin-bottom: 54px;
+}
+
+/* line 179, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.reason_img {
+  display: flex;
+  float: left;
+  margin: auto 25px;
+}
+
+/* line 184, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.icon_header {
+  width: 50%;
+  display: inline-block;
+  flex-wrap: wrap;
+  font-weight: 400;
+  font-size: 17px;
+  color: #1eacc7;
+}
+
+/* line 192, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.icon_txt {
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 26px;
+}
+
+/* line 197, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.mobile {
+  min-height: 854px;
+  padding: 48px 0 79px 0;
+  background: url(../img/bg/mobile_app.png) center center/cover no-repeat;
+}
+
+/* line 201, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 203, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 210, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.mobile_item_1 {
+  background-image: url(../img/kads/kad_1.png);
+}
+
+/* line 212, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.mobile_item_2 {
+  background-image: url(../img/kads/kad_2.png);
+}
+
+/* line 214, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.mobile_item_3 {
+  background-image: url(../img/kads/kad_3.png);
+}
+
+/* line 216, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.mobile_item_4 {
+  background-image: url(../img/kads/kad_4.png);
+}
+
+/* line 218, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.mobile_item_5 {
+  background-image: url(../img/kads/kad_5.png);
+}
+
+/* line 220, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.mobile_item_6 {
+  background-image: url(../img/kads/kad_6.png);
+}
+
+/* line 222, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.mobile_item_subtitle {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 31px;
+}
+
+/* line 229, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX -50%;
+  width: 29px;
+  height: 29px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+/* line 241, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.mobile_item_plus::before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+  transition: 0.4s all;
+}
+
+/* line 248, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.mobile_item_plus::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 2px;
+  height: 14px;
+  background-color: #1eacc7;
+  transition: 0.4s all;
+}
+
+/* line 259, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.mobile_item_plus:hover::before, .mobile_item_plus:hover::after {
+  background-color: #ff5656;
+}
+
+/* line 262, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.auto {
+  position: relative;
+  min-height: 900px;
+  padding: 59px 0 139px 0;
+  background: url(../img/bg/mobile_app.png) center center/cover no-repeat;
+}
+
+/* line 268, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.auto .img_auto {
+  position: relative;
+  display: block;
+  margin: 56px auto 0 auto;
+  z-index: 2;
+}
+
+/* line 273, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.auto .text {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #222222;
+}
+
+/* line 279, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.auto .black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 525px;
+  width: 100%;
+  background-color: #070716;
+  z-index: 1;
+}
+
+/* line 288, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.require {
+  padding: 68px 0 84px 0;
+}
+
+/* line 290, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.require_block {
+  margin: 33px 0;
+}
+
+/* line 292, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.require_block_nmb {
+  margin-bottom: 0;
+}
+
+/* line 294, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.require_title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #1eacc7;
+}
+
+/* line 299, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 303, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.require_list li {
+  position: relative;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  color: #222222;
+  margin-bottom: 10px;
+}
+
+/* line 310, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.require_list li::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/check_blue.png") center center/cover no-repeat;
+}
+
+/* line 319, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.require_descr {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  color: #1eacc7;
+}
+
+/* line 326, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.require .warning .require_title {
+  color: #ff5656;
+}
+
+/* line 330, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.require .warning .require_list li::before {
+  background: url("../icons/check_red.png") center center/cover no-repeat;
+}
+
+/* line 333, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.world {
+  height: 720px;
+  padding: 48px 0 79px 0;
+  background: url("../img/bg/world_bg.jpg") center center/cover no-repeat;
+}
+
+/* line 337, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.world a {
+  display: block;
+  text-align: center;
+  margin-top: 456px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 68px;
+  text-transform: uppercase;
+  color: #1eacc7;
+}
+
+/* line 347, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+footer {
+  padding: 14px 23px 39px 23px;
+}
+
+/* line 350, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+footer a:hover {
+  text-decoration: none;
+}
+
+/* line 354, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.footer_divider {
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+}
+
+/* line 359, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+/* line 364, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.footer_wrapper .footer_social {
+  max-height: 50px;
+}
+
+/* line 366, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.footer_wrapper .footer_social_item {
+  border: none;
+}
+
+/* line 369, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.footer_wrapper .footer_social_item img {
+  width: 32px;
+  background-color: black;
+  border: none;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+
+/* line 377, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.footer_wrapper > div {
+  width: 33%;
+}
+
+/* line 379, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.footer_wrapper > div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 384, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.footer_links {
+  width: 390px;
+  margin: 0 auto;
+}
+
+/* line 387, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.footer_links_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* line 391, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.footer_links_main a {
+  color: #070716;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 396, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.footer_links_sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* line 400, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.footer_links_sub a {
+  color: #999999;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 405, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.footer_links_lang {
+  display: block;
+  margin: 0 auto;
+  color: #1fbad6;
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 19px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 414, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.footer_mobile_app {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 417, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.footer_mobile_app img {
+  margin-right: 10px;
+}
+
+/* line 420, G:/Мой диск/Dev - HTML/Lesson_3/sass/_general.sass */
+.xs-visible {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .menu_item {
+    padding-right: 20px;
+  }
+  /* line 5, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .menu_link {
+    font-size: 13px;
+  }
+  /* line 8, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .promo_header {
+    font-size: 50px;
+  }
+  /* line 10, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .mobile_item {
+    width: 280px;
+    height: 260px;
+  }
+  /* line 13, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  footer .social li {
+    margin: 48px 6px 38px 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 18, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .menu_item {
+    padding-right: 8px;
+  }
+  /* line 20, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .menu_link {
+    font-size: 11px;
+  }
+  /* line 24, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .subheader_logo img {
+    width: 100%;
+  }
+  /* line 26, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .subheader_official {
+    font-size: 11px;
+  }
+  /* line 28, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .subheader_phone {
+    font-size: 18px;
+  }
+  /* line 30, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .subheader_btn {
+    margin-top: 21px;
+    width: 100%;
+    height: 40px;
+  }
+  /* line 35, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .promo_header {
+    font-size: 40px;
+  }
+  /* line 37, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .promo_subheader {
+    font-size: 25px;
+  }
+  /* line 39, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .promo_descr {
+    font-size: 14px;
+  }
+  /* line 41, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .promo_btn {
+    width: 35%;
+    height: 40px;
+  }
+  /* line 45, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .reason_img {
+    margin: auto 33.3%;
+  }
+  /* line 47, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .reason .icon_header {
+    width: 100%;
+    margin-top: 15px;
+  }
+  /* line 50, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .reason .icon_txt {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 55, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 67, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .menu_active {
+    left: 0;
+    z-index: 2;
+  }
+  /* line 70, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px auto;
+  }
+  /* line 74, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .menu_link {
+    font-size: 20px;
+  }
+  /* line 76, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  /* line 84, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+  /* line 92, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 94, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 96, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 98, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 100, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .xs-hidden {
+    display: none;
+  }
+  /* line 102, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .xs-visible {
+    display: block;
+  }
+  /* line 105, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  /* line 113, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  /* line 119, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .promo {
+    padding: 135px 0;
+  }
+  /* line 121, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .promo_header {
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 125, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  nav {
+    height: 30px;
+  }
+  /* line 127, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .subheader {
+    height: 60px;
+  }
+  /* line 129, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .subheader_official {
+    display: none;
+  }
+  /* line 131, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .subheader_logo {
+    margin-top: 18px;
+  }
+  /* line 133, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 7px;
+  }
+  /* line 142, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  /* line 147, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  /* line 150, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .promo_descr {
+    display: none;
+  }
+  /* line 152, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  /* line 156, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .promo_subheader {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 33px;
+    padding: 0 10px;
+  }
+  /* line 161, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .promo_btn {
+    width: 210px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 72px;
+  }
+  /* line 166, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .menu {
+    width: 85%;
+  }
+  /* line 168, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .menu_item {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+  }
+  /* line 172, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .menu_link {
+    display: block;
+  }
+  /* line 174, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .reason {
+    padding: 22px 0 36px 0;
+  }
+  /* line 176, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .reason_img {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 179, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .reason .block {
+    margin-top: 26px;
+  }
+  /* line 181, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .title {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+  /* line 185, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .mobile {
+    padding: 25px 0;
+  }
+  /* line 187, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .mobile_item_subtitle {
+    font-size: 20px;
+  }
+  /* line 190, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .auto {
+    padding: 30px 0;
+    min-height: 100%;
+  }
+  /* line 193, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .auto .black {
+    height: 400px;
+  }
+  /* line 195, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .auto .title {
+    display: none;
+  }
+  /* line 197, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .auto .subtitle {
+    display: none;
+  }
+  /* line 199, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .auto .img_auto {
+    margin: 35px 0;
+    width: 100%;
+  }
+  /* line 202, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .auto .text {
+    position: relative;
+    color: #fff;
+    z-index: 3;
+  }
+  /* line 206, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .require {
+    padding: 20px 0 30px 0;
+  }
+  /* line 208, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .require_title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  /* line 211, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .require_list {
+    margin-top: 5px;
+    padding-left: 30px;
+  }
+  /* line 214, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .require_list li {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 2px;
+  }
+  /* line 218, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .require_descr {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  /* line 221, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .require_block {
+    margin: 15px;
+  }
+  /* line 223, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .world {
+    height: 100%;
+    padding: 26px 0 10px 0;
+  }
+  /* line 226, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .world .word_city {
+    margin-top: 211px;
+  }
+  /* line 229, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .footer {
+    flex-wrap: wrap;
+  }
+  /* line 231, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .footer_item {
+    margin: 22px 33px;
+  }
+  /* line 233, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .footer_wrapper {
+    display: block;
+    text-align: center;
+  }
+  /* line 236, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .footer .footer_wrapper > div:nth-child(3) {
+    width: 90%;
+    justify-content: center;
+  }
+  /* line 239, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .footer_social {
+    display: inline;
+    width: 100%;
+    padding-left: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  /* line 245, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .footer_links {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px 4px;
+    font-size: 14px;
+  }
+  /* line 251, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .footer_links_sub {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  /* line 255, G:/Мой диск/Dev - HTML/Lesson_3/sass/_media.sass */
+  .footer_mobile_app {
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
